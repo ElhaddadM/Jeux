@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+    <style>
+      body{
+        background-color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div class="container position-relative d-flex justify-content-center align-items-center mt-2">
+    <button class="btnRegle " id="btnRegle">Regle de Jeu </button>
+
+
+    </div> -->
+
+    <div class="position-relative">
+      <button class="btnRegle btn btn btn-outline-info my-auto" id="btnRegle" type="button">Regle</button>
+    </div>
+    <div class="container position-relative d-flex justify-content-center align-items-center mt-auto" id="container">
+      <div class="position-absolute bg-secondary d-flex justify-content-center align-content-center w-25 h-50 flex-column p-5 gap-3 rounded-3 text-center d-none " id="login">
+        <button class="btn btn-primary" id="sing_in" >Login</button> 
+        <button class="btn btn-success" id="Guest">Guest</button>
+        <a href="#" class="text-uppercase" id="acount" >Creata Acount ?</a>
+    </div>
+    <div class="d-flex rounded-3 justify-content-center align-content-center position-absolute px-4  border-3 bg-secondary  w-25 h-50 flex-column gap-2 d-none " id="createAcount">
+      
+          <h4 class="text-center text-white p-0"> Create Acount  </h4>
+       
+          <input class="rounded-3 px-3" type="text" name=""  placeholder="Emaill" value='' id="email" >
+          <input class="rounded-3 px-3" type="text" name="" placeholder="user name" id="userName" >
+          <input class="rounded-3 px-3" type="text" name="" placeholder="password" id="password">
+          <input class="rounded-3  " type="button" class=" mt-2 btn btn-group-lg btn-info rounded-5 " value="Submit"id='btnAdd' >
+     
+    </div>
+    <!-- //Login form -->
+    <div class="d-flex rounded-3 justify-content-center align-content-center  position-absolute px-4  border-3 bg-success  w-25 h-50 flex-column gap-2 d-none " id="login_form">
+     
+
+      <h4 class="text-white text-center p-0  ps-2">Login  <span class="return px-5 " id="back2"><img class="" src="./icons/return.svg" alt="" srcset=""></span></h4>
+      <input class="rounded-3 px-3" type="text" name="" placeholder="user name" id="user_name">
+      <input class="rounded-3 px-3" type="text" name="" placeholder="password" id="user_pass">
+     <div class="text-white"> <input type="checkbox" name="accept" id="accept"> <label for="accept">Remembre me !</label></div>
+      <input class="rounded-3  " type="button" class=" mt-2 btn btn-group-lg btn-info rounded-5 " value="Login" id="btnLogin" >
+</div>
+
+      <canvas id="canvas"  width="500" height="540"></canvas>
+
+      <div class="regles container  " id="regles">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
+          adipisicing elit. Laudantium,
+          adipisicing elit. Laudantium,
+          adipisicing elit. Laudantium,
+          adipisicing elit. Laudantium,
+          adipisicing elit. Laudantium,
+          adipisicing elit. Laudantium,
+        </p>
+        <button class="btnClose mt-5" id="btnCloseRegle">Quitter</button>
+      </div>
+     
+        <img src="./icons/game-over.png" class="gameOver" id="gameOver" alt="" srcset="">
+        <!-- <button id="Rejouer">Rejouer</button> -->
+        <img src="./icons/restart.png"  id="Rejouer"  alt="" srcset="">
+        <img src="./icons/start.png"   id="start" alt="" srcset="">
+        <img src="./icons/heart.png" width="50"  class="d-none" id="vie1" alt="" srcset="">
+        <img src="./icons/star.png" width="50"  class="d-none" id="vie2" alt="" srcset="">
+        <img src="./icons/user.png" width="50"  class="d-none" id="vie3" alt="" srcset="">
+
+
+
+ 
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <img
+      src="./icons/level.svg"
+      id="img"
+      alt=""
+      style="display: non; width: 2px"
+    />
+
+    <script src="./bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

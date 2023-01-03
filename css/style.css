@@ -1,0 +1,99 @@
+body{
+    background-color: gray;
+    position: relative;
+    z-index: -1;
+
+
+}
+/* .container{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vh;
+    
+} */
+#start{
+    position: absolute;
+    top: calc(100vh/2 - 100px);
+    left: calc(100%/2 -450px);
+    width: 100px;
+    cursor: pointer;
+    display: none;
+
+}
+.gameOver{
+    position: absolute;
+    width: 30vh;
+    /* z-index: 9; */
+    float: calc(100%/2);
+    left: calc(100%/2 - 90px);
+    /* left: 27rem; */
+
+    display: none;
+}
+#Rejouer{
+    position: absolute;
+    top: calc(100vh/2 + 100px);
+    left: calc(100%/2 -450px);
+    width: 50px;
+    cursor: pointer;
+    display: none;
+
+}
+.btnRegle{
+    position: relative;
+
+    left: 27rem;
+    color: red;
+}
+.regles{
+
+    background-color:chocolate;
+    position:absolute;
+    padding: 5vh;
+    width:20rem;
+    height: 25rem;
+    text-align: center;
+    left: calc(100%/2 - 200px);
+    /* opacity: .6; */
+    border-radius: 10px;
+    display: none;
+    
+   
+}
+/* .btnClose{
+   
+  
+} */
+.login{
+    position: absolute;
+    background-color: gray;
+    width:60vh;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column; 
+    display: none;
+color: b;
+    
+}
+.return{
+    position: relative;
+    top: -50px;
+    left: 15vh;
+    cursor: pointer;
+    
+}
+
+
+.login button{
+    margin:1vh;
+}
+#canvas{
+    display: block;
+    background-color:whitesmoke;
+  
+   
+}
